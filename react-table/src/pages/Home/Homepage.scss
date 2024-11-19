@@ -1,0 +1,26 @@
+.homepage {
+    border-radius: 3rem;
+    padding: 2rem;
+    background: #0000007d;
+    margin: auto;
+    width: 80%;
+    &__title {
+        margin-bottom: 3rem;
+    }
+    &__info {
+        text-align: justify;
+    }
+    &__container {
+        display: flex;
+        gap: 2rem;
+
+        & > *  {
+            flex: 1;
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
